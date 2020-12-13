@@ -18,13 +18,18 @@ class Paper {
     display(){
     
     var pos = this.body.position
+
     push ();
-    ellipseMode(RADIUS);
-    circle(pos.x, pos.y, this.radius, this.radius);
+    //ellipseMode(RADIUS);
+    //circle(pos.x, pos.y, this.radius, this.radius);
     imageMode(CENTER);
-    image(this.image, 600, 610, this.radius,this.radius);
+    image(this.image, 80, 610,100);
+    
     pop ();
     }
     
 };
+
+
+
 

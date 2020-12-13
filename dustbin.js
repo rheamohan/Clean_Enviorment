@@ -17,10 +17,13 @@ class Dustbin{
     display(){
         var pos = this.body.position
         push ();
+        fill ("red");
+        stroke ("red");
         rectMode(CENTER);
         rect(pos.x ,pos.y,this.width,this.height);
         imageMode (CENTER);
         image(this.image,640,550,240,240);
+        
         pop ();
     }
 };
